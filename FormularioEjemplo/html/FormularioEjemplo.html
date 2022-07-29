@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Login Form</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <link rel="stylesheet" href="../css/FormularioEjemplo.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Registrate</h1>
+        <div class="buttons">
+            <button class="button-google">
+                <picture>
+                    <img src="http://assets.stickpng.com/images/5847f9cbcef1014c0b5e48c8.png" alt="logo-google">
+                </picture>
+                <span>Registrate con Google</span>
+            </button>
+            <button class="button-tw">
+                <picture>
+                    <img src="../img/logo-twitter.png" alt="logo-twitter">
+                </picture>
+            </button>
+        </div>
+        <div class="separator">
+            <hr>
+            <span>O</span>
+            <hr>
+        </div>
+        <form action="" method="">
+            <div class="section-inputs">
+                <label for="name">
+                    <span>Nombre</span>
+                    <input type="text" id="name" name="name">
+                </label>
+                <label for="username">
+                    <span>Username</span>
+                <input type="text" id="username" name="username">
+                </label>
+            </div>
+            <label for="email">
+                <span>Email</span>
+                <input type="email" id="email" name="email">
+            </label>
+            <label for="password">
+                <span>Contraseña</span>
+                <input type="password" id="password" name="password" placeholder="6+ caracteres">
+            </label>
+            <label for="checkbox" class="check-box">
+                <input type="checkbox" id="checkbox">
+                <span>Acepto los terminos y condiciones</span>
+            </label>
+            <button type="submit" class="submit-button">Crear cuenta</button>
+        </form>
+    </div>
+</body>
+</html>
